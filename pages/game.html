@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+<head>	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link id="Lobby" href="index.html">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	
+</head>
+
+<body>
+<center>
+
+	
+	
+	<div class="main">
+	<div class="background">
+	<a class="home" style="font-family:Comic Sans MS; text-decoration:none; font-size:30px; color:white;" href="index.html">
+		<i class="fas fa-home"></i>
+	</a>
+	<a id="scoreboard" class="scoreboard" style="font-family:Comic Sans MS; text-decoration:none; font-size:30px; color:white;">
+		<i class="fas fa-list-ul"></i>
+	</a>
+
+	<div id="myModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+		  <span class="close">&times;</span>
+		  <h1> Scores </h1>
+		  <div id="info"></div>
+		</div>
+	</div>
+
+	<h1> PIPE HOPPER </h1>
+		<ul>
+			<li id="score" action="/api" method="POST" name="score" style="font-size:20px; color: white; background-color:pink; ">Score: </li>
+			<li id="waveMessage" style="font-size:20px; color: white; background-color:SlateBlue;">Wave: </li>
+			<li id ="message" class="message" style="font-size:20px; color: red; position:relative;letter-spacing:10px;"> GAME OVER </li>
+		</ul>
+		<div class="div2">
+      <script src="game.js"></script>
+		</div>
+		
+		
+	</div>
+	</div>
+</center>	
+</body>
+
+</html>
