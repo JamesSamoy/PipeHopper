@@ -1,7 +1,8 @@
 Instructions to set-up and run Pipe Hopper Game:
 
 1. Download and install node.js https://nodejs.org/en/
-2. Open up windows command prompt and navigate to the PipeHopper folder that you unzipped.
+2. Place all project files into a folder.
+2. Open up windows command prompt and navigate to the root folder containing the files.
 3. Start up the web server (server.js) by typing "node server.js" and press enter.
 4. Open up your browser and type in "localhost:8080" and press enter.
 5. When the game home page loads into the browser and the server is listening,
